@@ -1,0 +1,7 @@
+# m h  dom mon dow   command
+
+# DeguMKII (5-minutes version)
+# Reset the temporary
+  0     0   *   *   * /usr/bin/python3 /home/pi/Documents/Degu/kumiReset.py
+# Run DeguMKII.py in python3 idle every 5 minutes
+  */5   *   *   *   * /usr/bin/python3 /home/pi/Documents/Degu/DeguMKII.py > /dev/pts/0
