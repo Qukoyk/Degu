@@ -10,6 +10,7 @@ Therefore, that PC seems had some problem and can't save the data for long time.
 So he asked me that if I could build a budget to replace that PC.
 
 
+
 DETAILS
 
 I use Python 3 in a Raspberry Pi 3 to solve this problem.
@@ -19,10 +20,12 @@ Also, data will be saved in a directory in .csv which conclude Group, ID and Tim
 Cause it is Raspberry Pi, cron is a easy way to controll the automatic-running. You can see it in "corn.txt".
 
 
+
 STRUCTURE
 
 DeguMKII.py is the main script.
 kumiReset.py is a script to reset the kumiTemporary in to 0 at 00:00everyday. (Also contronlled by cron)
+
 
 
 
