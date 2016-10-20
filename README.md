@@ -18,5 +18,7 @@ The script will count the turns for every 4'59". When degu run for half turn, th
 * cron.txt  
   cronjob commands
   
-### AUTHOR
+  
+  
+#### AUTHOR
   Qukoyk <g160058@hiroshima-u.ac.jp>
