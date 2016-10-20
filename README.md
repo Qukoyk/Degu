@@ -16,7 +16,7 @@ Cause it is Raspberry Pi, cron is a easy way to controll the automatic-running. 
 * **DeguMKII.py**
   the main script.
 * kumiReset.py  
-  a script to reset the kumiTemporary in to 0 at 00:00 everyday. (Also contronlled by cron)  
+  a script to reset the kumiTemporary in to 1 at 00:00 everyday. (Also contronlled by cron)  
 * cron.txt  
   cronjob commands
     
