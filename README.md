@@ -17,8 +17,7 @@ The script will count the turns for every 4'59". When degu run for half turn, th
   a script to reset the kumiTemporary in to 0 at 00:00everyday. (Also contronlled by cron)  
 * cron.txt  
   cronjob commands
-  
-  
-  
-#### AUTHOR
-  Qukoyk <g160058@hiroshima-u.ac.jp>
+    
+    
+Qukoyk  
+  <g160058@hiroshima-u.ac.jp>
