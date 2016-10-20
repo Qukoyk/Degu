@@ -52,7 +52,7 @@ try:
 				for line in mydata:
 					myfile.write(line)
 				while GPIO.input(24) == GPIO.LOW:						#「保護わく」
-					sleep(0.01)											#同じ
+					sleep(0.1)											#同じ
 
 			else:
 				GPIO.output(25, GPIO.LOW)
