@@ -13,7 +13,7 @@ The script will count the turns for every 4'59". When degu run for half turn, th
 Cause it is Raspberry Pi, cron is a easy way to controll the automatic-running. You can see it in "corn.txt".  
   
 ## STRUCTURE  
-* **DeguMKII.py**
+* **DeguMKII.py**  
   the main script.
 * kumiReset.py  
   a script to reset the kumiTemporary in to 1 at 00:00 everyday. (Also contronlled by cron)  
