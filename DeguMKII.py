@@ -61,7 +61,7 @@ try:
 			sleep(0.01)	
 			
 		else:															#一日に達すれば命令
-			print("第",str(kumi),"組　",str((time.strftime("%H:%M:%S", time.localtime()))),"でブロック終了")
+			print("第",str(kumi),"組　",str((time.strftime("%H:%M:%S", time.localtime()))),"でブロック終了",'\n')
 			kumiTemp = open('/home/pi/Documents/Degu/kumiTemporary.txt','w')
 			kumi = int(kumi)+1
 			for line in str(kumi):
