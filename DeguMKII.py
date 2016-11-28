@@ -19,15 +19,15 @@ time1 = time.time()
 time2 = time.time()														#前回反応の時間点
 jiKoku = []
 day = time.strftime("%Y-%m-%d")
-headTitle = ["Group,ID,Time"]
+#~ headTitle = ["Group,ID,Time"]
 
 #データ保存先を指定
 mydata = []
 mydata2 = []
 myfile = open(day + '.csv','a')
 kumiTemp = open('/home/pi/Documents/Degu/kumiTemporary.txt','r+')
-for line in headTitle:
-	myfile.write(line+'\n')
+#~ for line in headTitle:
+	#~ myfile.write(line+'\n')
 kumi = kumiTemp.read()
 kumiTemp.close()
 print ("第",kumi,"組、",str((time.strftime("%H:%M:%S", time.localtime()))),"から始動！")	
