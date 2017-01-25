@@ -19,7 +19,7 @@ Cause it is Raspberry Pi, cron is a easy way to controll the automatic-running. 
   a script to reset the kumiTemporary in to 1 at 00:00 everyday. (Also contronlled by cron)  
 * cron.txt  
   cronjob commands
-* actogram.py
+* actogram.py    
   a script to analysis the biological rhythms of degu and creat actograms.
     
     
