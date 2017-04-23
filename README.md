@@ -28,4 +28,4 @@ Also, you can use actogram.py to analysis Degu's biological rhythms. It is based
 Qukoyk  
   <m172236@hiroshima-u.ac.jp>
     
-    ![Degu Actogram](http://i.imgur.com/3EfTsK7.png "Actogram of Degu during 2016.11-2016.12") 
+![Degu Actogram](http://i.imgur.com/3EfTsK7.png "Actogram of Degu during 2016.11-2016.12") 
